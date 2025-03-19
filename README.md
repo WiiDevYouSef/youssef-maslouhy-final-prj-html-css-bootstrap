@@ -6,7 +6,8 @@
 
 ## font  : 
 
-    "Questrial" ,
+
+    "Questrial" , "Nunito"
 
     font-family : "Questrial", sans-serif;
 
