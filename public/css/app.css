@@ -12390,6 +12390,22 @@ nav > a:hover {
     margin: 2rem;
   }
 }
+.questions-asked {
+  font-family: "Questrial", sans-serif;
+  padding-bottom: 5rem;
+}
+.questions-asked h1, .questions-asked .h1 {
+  padding: 5rem 0px;
+}
+
+.accordion {
+  padding: 0 5vw;
+}
+.accordion .accordion-item {
+  background-color: #F9FBFC;
+  padding: 2vh 4vw;
+}
+
 body {
   background-color: #f5f7fa;
   padding: 50px;
@@ -12525,6 +12541,7 @@ body {
   text-align: center;
   padding: 20px 0;
   padding-top: 6rem;
+  font-family: "Questrial", sans-serif;
 }
 
 .footer p {
