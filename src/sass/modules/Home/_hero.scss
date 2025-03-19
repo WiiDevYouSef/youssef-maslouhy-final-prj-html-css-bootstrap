@@ -1,0 +1,130 @@
+.hero-container{
+    display: flex;
+    align-items: center
+    ;
+    justify-content: space-around;
+    padding-inline: 12rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem !important;
+    font-family: "Questrial", sans-serif;
+    
+}
+.left-hero{
+    width: 40vw;
+}
+.left-hero>h3{
+    font-size: 55px;
+}
+.hero-btns{
+    display: flex;
+    gap: 20px;
+    padding-top: 1rem;
+
+}
+.work-btn{
+    background-color: #E87532;
+    padding: 12px 1rem;
+    border-radius: 2rem;
+    border: none;
+    transition: 0.5s;
+}
+
+.work-btn:hover{
+    background-color: #fa6007;
+    transform: translate(0, -3px);
+
+    
+}
+
+.work-btn{
+    text-decoration: none;
+    color: white;
+    transition: transform .4s ease-out;
+
+}
+.connect-btn{
+    background-color: white;
+    padding: 12px 1rem;
+    border-radius: 2rem;
+    border: 1px solid #E87532;
+}
+
+.connect-btn{
+    text-decoration: none;
+    color: #E87532;
+    transition: transform .4s ease-out;
+    
+}
+.connect-btn:hover{
+    background-color: #E87532;
+    color: white;
+    transform: translate(0, -3px);
+    
+}
+
+
+
+.hero-numebrs{
+    display: flex;
+    gap: 3rem;
+    padding-top: 1.5rem;
+    // padding-left: 1rem;
+}
+.hero-numebrs h1{
+    font-weight: 700;
+    
+}
+.right-hero{
+    width: 40vw;
+   
+
+
+}
+.right-hero img{
+    width: 30vw;
+    padding-bottom: 5rem;
+}
+
+
+
+
+
+@media (max-width:420px) {
+    .hero-container{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .left-hero{
+        width: 90vw;
+        
+    }
+    .right-hero{
+        width: 90vw;
+        
+    
+    }
+    .right-hero img{
+        width: 90vw;
+    }
+    .hero-btns{
+        flex-direction: column;
+        text-align: center;
+    
+    }
+    .hero-numebrs{
+        padding-top: 5rem;
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+
+
+
+
+// SERVICE YKOUN B 'BOOTSTRAP'
+// CONTACT SERVICE 'CSS'
