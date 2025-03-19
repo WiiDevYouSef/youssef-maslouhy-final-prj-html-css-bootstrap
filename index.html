@@ -30,19 +30,19 @@
             <h1>EasyFolio</h1>
           </div>
           <!-- CHECKBOX FOR MOBILE VIEW -->
-          <input type="checkbox" id="menu">
+          <input type="checkbox" id="menu" />
           <nav>
             <!-- CLOSE ICON -->
             <label for="menu">
               <i class="bi bi-x-lg close text-black"></i>
-             </label>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Resume</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Services</a>
+            </label>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#resume">Resume</a>
+            <a href="#portofolio">Portfolio</a>
+            <a href="#service">Services</a>
             <a href="#">Dropdown</a>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </nav>
           <div class="media-icons">
             <i class="bi bi-twitter-x"></i>
@@ -50,16 +50,15 @@
             <i class="bi bi-instagram"></i>
             <i class="bi bi-linkedin"></i>
             <!-- ICON FOR OPEN -->
-             <label for="menu">
-
-               <i class="mobile-nav-toggle d-xl-none bi bi-list open"></i>
-             </label>
+            <label for="menu">
+              <i class="mobile-nav-toggle d-xl-none bi bi-list open"></i>
+            </label>
           </div>
         </div>
       </header>
     </section>
     <!-- HERO SECTION -->
-    <section>
+    <section id="home">
       <div class="hero-container">
         <div class="left-hero">
           <h3>
@@ -97,7 +96,7 @@
     </section>
 
     <!-- P-1 : ABOUT  (ELIOT INFORMATION) -->
-    <section>
+    <section id="about">
       <div class="about-container">
         <div class="about-info">
           <h1>About</h1>
@@ -207,7 +206,7 @@
 
     <!-- RESUME SECTION-->
     <!-- Work Experience Section -->
-    <section>
+    <section id="resume">
       <div class="work-experience">
         <h2>Work Experience</h2>
         <p class="description">
@@ -355,7 +354,7 @@
       </section>
     </section>
     <!-- PORTFOLIO -->
-    <!-- <section>
+    <!-- <section id='portofolio'>
       <div class="portfolio-section">
         <nav class="nav">
           <a class="nav-link active" aria-current="page" href="#">Active</a>
@@ -411,7 +410,7 @@
                       src="./public/assets/img/person/person-f-5.webp"
                       alt=""
                     />
-                    <div >
+                    <div>
                       <h6>Sara Wilsson</h6>
                       <p>Designer</p>
                     </div>
@@ -577,7 +576,141 @@
         </div>
       </div>
     </section>
-    <!-- SERVICES-->
+    <!-- SERVICES SECTION-->
+    <section id="service">
+      <div class="service-container">
+
+
+        <div class="service">
+            <div class="service-info">
+                <h2 class=" service-title ">Services</h2>
+                <p class="text-muted ">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
+                    nihil molestiae
+                    consequatur vel illum qui dolorem</p>
+            </div>
+
+            <div  class="row  mt-5 ">
+                <div class="col-md-5  d-flex flex-column gap-3 justify-content-center   ">
+                    <h2 class="fw-bold">Consectetur adipiscing elit sed do eiusmod tempor</h2>
+                    <p class="text-muted">Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat
+                        velit class aptent taciti sociosqu ad litora.</p>
+                    <a href="#" class="btn btn-outline-warning  w-25">See all services</a>
+                </div>
+
+                <div class="col-md-7">
+                    <div class="row g-5">
+                        <div class="col-md-6 ">
+                            <div class="p-4 d-flex flex-column  gap-3 shadow-sm rounded bg-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="" fill="#e87532"
+                                    class="bi bi-easel" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0a.5.5 0 0 1 .473.337L9.046 2H14a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1.85l1.323 3.837a.5.5 0 1 1-.946.326L11.092 11H8.5v3a.5.5 0 0 1-1 0v-3H4.908l-1.435 4.163a.5.5 0 1 1-.946-.326L3.85 11H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h4.954L7.527.337A.5.5 0 0 1 8 0M2 3v7h12V3z" />
+                                </svg>
+                                <h5 class="card_title"> Eget nulla facilisi etiam</h5>
+                                <p class="text-muted">Vestibulum morbi blandit cursus risus at ultrices mi tempus
+                                    imperdiet nulla.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-4 shadow-sm rounded bg-white d-flex flex-column gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#e87532"
+                                    class="bi bi-broadcast" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707m2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708m5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708m2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0" />
+                                </svg>
+                                <h5 class="card_title"> Duis aute irure dolor</h5>
+                                <p class="text-muted">Auctor neque vitae tempus quam pellentesque nec nam aliquam
+                                    sem et tortor.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+
+                            <div class="p-4 shadow-sm rounded bg-white d-flex flex-column gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#e87532"
+                                    class="bi bi-bounding-box-circles" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2M0 2a2 2 0 0 1 3.937-.5h8.126A2 2 0 1 1 14.5 3.937v8.126a2 2 0 1 1-2.437 2.437H3.937A2 2 0 1 1 1.5 12.063V3.937A2 2 0 0 1 0 2m2.5 1.937v8.126c.703.18 1.256.734 1.437 1.437h8.126a2 2 0 0 1 1.437-1.437V3.937A2 2 0 0 1 12.063 2.5H3.937A2 2 0 0 1 2.5 3.937M14 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2M2 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m12 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                </svg>
+                                <h5 class="card_title"> Excepteur sint occaecat</h5>
+                                <p class="text-muted">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                                    blanditiis praesentium.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-4 shadow-sm rounded bg-white d-flex flex-column gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#e87532"
+                                    class="bi bi-activity" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2" />
+                                </svg>
+                                <h5 class="card_title"> Tempor incididunt ut labore</h5>
+                                <p class="text-muted">Ullamco laboris nisi ut aliquip ex ea commodo consequat duis
+                                    aute irure dolor.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- QUISTIONS -->
+     <section id="">
+
+     </section>
+
+    <!-- CONTACT SECTION -->
+     <section id="contact">
+
+       <div class="contact-section">
+         <div class="contact-info">
+             <h3>Contact</h3>
+             <h1>Nemo enim ipsam voluptatem quia voluptas aspernatur</h1>
+             <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+             <div class="contact-details">
+                 <div>
+                     <span>✉️</span>
+                     <a href="mailto:info@example.com">info@example.com</a>
+                 </div>
+                 <div>
+                     <span>📞</span>
+                     +1 5589 55488 558
+                 </div>
+                 <div>
+                     <span>📍</span>
+                     A108 Adam Street, New York, NY 535022
+                 </div>
+                 <div>
+                     <a href="#">Open Map →</a>
+                 </div>
+             </div>
+         </div>
+         <div class="contact-form">
+             <form>
+                 <input type="text" placeholder="Your Name" required>
+                 <input type="email" placeholder="Your Email" required>
+                 <input type="text" placeholder="Subject" required>
+                 <textarea placeholder="Message" required></textarea>
+                 <button type="submit">Submit Message</button>
+             </form>
+         </div>
+       </div>
+     </section>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; Copyright EasyFolio All Rights Reserved</p>
+    <div class="social-icons">
+            <i class="bi bi-twitter-x"></i>
+            <a href="#"></a>
+            <i class="bi bi-twitter-x"></i>
+            <a href="#"></a>
+            <i class="bi bi-twitter-x"></i>
+            <a href="#"></a>
+            <i class="bi bi-twitter-x"></i>
+            <a href="#"></a>
+    </div>
+    <p class="designed-by">Designed by <a target="_blank" href="https://github.com/WiiDevYouSef">WiiDevYouSef</a></p>
+</footer>
+
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>

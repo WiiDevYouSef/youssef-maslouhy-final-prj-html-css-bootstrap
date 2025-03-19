@@ -74,7 +74,7 @@ nav>a:hover{
 
 
 
-@media (max-width:428px) {
+@media (max-width:420px) {
     .open , .close{
         display: block;
     }
@@ -95,7 +95,7 @@ nav>a:hover{
         transition: 0.5s;
     }
     .nav-container{
-        left:1rem;
+        left:2.3rem;
         width: 90vw;
     }
     #menu:checked ~ nav{

@@ -1,0 +1,27 @@
+.service-container{
+    padding: 3rem 0px;
+    font-family: "Questrial", sans-serif !important;
+    padding-inline: 5rem;
+
+}
+.service-title{
+    font-size: 40px;
+}
+.service-info{
+    text-align: center;
+}
+.card_title{
+    color: rgba(0, 0, 0, 0.565);
+}
+
+
+
+
+@media (max-width:420px) {
+    
+    .w-25 {
+        width: 50vw !important;
+        margin: 2rem;
+    }
+    
+}
